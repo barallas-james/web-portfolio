@@ -15,19 +15,26 @@ body {
 }
 
 h1 {
-	font-size: 40px;
-	background-color: rgba(55,71,0,1);
+	font-size: 60px;
+	border-radius: 23px;
+
+	background-color: rgba(102, 204, 255,0.57);
 	text-transform: uppercase;
 	margin-bottom: 0; 
 	letter-spacing: 10px; /*space between letter*/
-	font-family: 'Crete Round', serif;
+	font-family: 'Pangolin', cursive;
+	
+	
 }
 
 h2 {
+	font-size: 30px;
+	border-radius: 23px;
+
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	color: yellow;
-	background-color: rgba(55,71,0,0.6);
+	background-color: rgba(0,0,0,1);
 	font-family: 'Permanent Marker', cursive;
 
 }
@@ -35,30 +42,31 @@ h2 {
 #me {
 	height: 250px;
 	width: 400px;
-	border-radius: 50%;
+	border-radius: 23px;
 	border-width: 10px;
 	border-style: solid;
-	border-color: white;
+	border-color: #66CCFF;
 	margin-top: 50px;
 
 }
 
 .bio{
 	width: 100%;
+	border-radius: 23px;
 	font-size: 18px;
 	line-height: 1.5; /*space between lines of text*/
-	background-color: rgba(55,71,0,1);
-	color: #fff;
+	background-color: rgba(0,153,204,0.7);
+	
 
 	/*whole class will be affected with opacity
 	background-color: #333;
 	opacity: 50%;*/
-
-	font-family: 'Baloo Bhaijaan', cursive;
+	color: white;
+	font-family: 'Patrick Hand SC', cursive;
 }
 
 .container{
-	width: 500px;
+	width: 700px;
 	margin: 0 auto;
 	text-align: center;
 
